@@ -1,0 +1,18 @@
+
+public class perfectnum {
+	public static void main(String args[])
+	{
+		int n=231,r,q1,q2,q,sum,mul,r1;
+		r=n%10;
+		q=n/10;
+		q1=q/10;
+		r1=q%10;
+		sum=r+q1+r1;
+		mul=r*q1*r1;
+		if(sum==mul)
+			System.out.println("The number is perfect number");
+		else
+			System.out.println("the number is not a perfect number");
+	}
+
+}
